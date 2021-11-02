@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-header{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+header{
+  height: 40px;
+}
+
+.logo{
+  width: 30px;
+}
+
+.logo img{
+  width: 100%;
+}
+
+main{
+  background-color: aqua;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.griglia{
+  width: 500px;
+  height: 500px;
+  background-color: aqua;
+}
+
+.box{
+  width: calc(500px / 10);
+  height: calc(500px / 10);
+  border: 2px solid grey;
+  float: left;
+}
